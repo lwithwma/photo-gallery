@@ -1,0 +1,28 @@
+
+h1{
+	font-family:serif; 
+	font-size: 4em;
+	border-bottom: 2px solid #e100ff;;
+	width:auto;
+	text-align: center;
+	color: #0089ff;
+	text-shadow: 2px 2px 8px #8b818d;
+
+}
+.container {
+	display: flex; /* using flexbox*/
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+img	{
+	width: 450px;
+	margin: 10px;
+	border-radius: 20px;
+	transition: all 1s;
+
+}
+img:hover{
+	transform: scale(1.1);
+}
+
